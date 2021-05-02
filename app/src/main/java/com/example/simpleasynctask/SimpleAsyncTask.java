@@ -38,7 +38,7 @@ public class SimpleAsyncTask extends AsyncTask<Void, Void, String> {
 
 
     // This method automatacly gets passed the return value from doInBackground.
-    protected void onPostExcute(String result){
+    protected void onPostExecute(String result){
         mTextView.get().setText(result);
     }
 
